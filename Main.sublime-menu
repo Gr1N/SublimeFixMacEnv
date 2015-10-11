@@ -1,0 +1,29 @@
+[
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "children": [{
+      "caption": "Package Settings",
+      "id": "package-settings",
+      "children": [{
+        "caption": "SublimeFixMacEnv",
+        "children": [
+          {
+            "caption": "Settings – Default",
+            "command": "open_file",
+            "args": {
+                "file": "${packages}/SublimeFixMacEnv/SublimeFixMacEnv.sublime-settings"
+            }
+          },
+          {
+            "caption": "Settings – User",
+            "command": "open_file",
+            "args": {
+                "file": "${packages}/User/SublimeFixMacEnv.sublime-settings"
+            }
+          }
+        ]
+      }]
+    }]
+  }
+]
