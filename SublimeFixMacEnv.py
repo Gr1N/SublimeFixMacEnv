@@ -24,6 +24,10 @@ def get_env_to_fix():
     }
 
 
+def is_visible():
+    return False
+
+
 def _plugin_loaded():
     global _SETTINGS
     _SETTINGS = sublime.load_settings('SublimeFixMacEnv.sublime-settings')
